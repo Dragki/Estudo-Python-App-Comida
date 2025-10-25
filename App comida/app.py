@@ -32,7 +32,7 @@ def opcao_invalida():
     voltar_ao_menu_principal()
 
 def exibir_subtitulo(texto):
-    os.system('cls')
+    os.system('clear')
     linha = '*' * (len(texto))
     print(linha)
     print(texto)
@@ -97,7 +97,7 @@ def escolher_opcao():
         opcao_invalida()
 
 def main():
-    os.system('cls')
+    os.system('clear')
     exibir_nome_do_programa()
     exibir_opcoes()
     escolher_opcao()
