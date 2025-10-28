@@ -15,10 +15,10 @@ def exibir_nome_do_programa():
 """)
 
 def exibir_opcoes():
-    print('1. Cadastrar restaurante')
+    print('1. Cadastrar um restaurante')
     print('2. Listar restaurantes')
     print('3. Alternar estado do restaurante')
-    print('4. Sair\n')
+    print('4. Desintegrar o mundo\n')
 
 def finalizar_app():
     exibir_subtitulo('Finalizar app')
